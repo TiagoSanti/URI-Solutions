@@ -1,0 +1,1 @@
+SELECT life_registry.name, round(life_registry.omega*1.618,3) AS FATOR_N FROM life_registry JOIN dimensions ON dimensions.id = life_registry.dimensions_id WHERE life_registry.dimensions_id IN (1,5) AND life_registry.name LIKE 'Richard%' ORDER BY life_registry.omega;

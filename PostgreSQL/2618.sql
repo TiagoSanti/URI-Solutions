@@ -1,0 +1,1 @@
+SELECT p1.name, p2.name, c.name FROM providers p2 JOIN products p1 ON p2.id = p1.id_providers JOIN categories c ON c.id = p1.id_categories WHERE c.name LIKE 'Imported' AND p2.name LIKE 'Sansul SA';

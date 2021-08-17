@@ -1,0 +1,1 @@
+SELECT name from CUSTOMERS WHERE state LIKE 'RS';
